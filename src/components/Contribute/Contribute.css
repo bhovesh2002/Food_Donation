@@ -1,0 +1,28 @@
+.helpcard {
+    margin: 30px 80px;
+    padding: 60px;
+    background-color: #B692C2;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.help-heading {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.help-heading span {
+    color: red;
+    font-weight: 600;
+}
+
+.help-btn {
+    padding: 1rem 1.5rem;
+    font-size: 1.4rem;
+    border: 1.5px solid transparent;
+    background: white;
+    color: black;
+}

@@ -1,0 +1,55 @@
+.partner-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 10px;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.carousel .slide {
+  background: none;
+}
+
+.carousel .control-arrow,
+.carousel.carousel-slider .control-arrow {
+  -webkit-transition: all 0.25s ease-in;
+  -moz-transition: all 0.25s ease-in;
+  -ms-transition: all 0.25s ease-in;
+  -o-transition: all 0.25s ease-in;
+  transition: all 0.25s ease-in;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  background: none;
+  border: 0;
+  font-size: 48px; /* Increased font size */
+  cursor: pointer;
+  transform: translateY(-50%);
+  color: #333; /* Darker color for visibility */
+  width: 300px; /* Increase width */
+  height: 300px; /* Increase height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel .control-arrow:hover {
+  opacity: 1;
+}
+
+.carousel .control-prev.control-arrow {
+  left: 10px;
+}
+
+.carousel .control-next.control-arrow {
+  right: 10px;
+}
